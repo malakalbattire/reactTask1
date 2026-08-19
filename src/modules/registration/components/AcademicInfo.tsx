@@ -1,8 +1,7 @@
-import {
-  majors,
-  academicLevels,
-  graduationYears,
-} from "../../../shared/data";
+import { academicLevels } from "../../../shared/models/academicLevel.model";
+import { graduationYears } from "../../../shared/models/graduationYear.model";
+import { majors } from "../../../shared/models/major.model";
+
 
 export default function AcademicInfo() {
   return (

@@ -1,7 +1,7 @@
-export interface MajorModel {
+export interface MajorForm {
   id: number;
   slug: string;
   name: string;
   description: string | null;
-  sort_order: number;
+  sortOrder: number;
 }
